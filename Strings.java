@@ -20,15 +20,27 @@ public class Strings {
         System.out.println("Hello" + "World!!");
 
         //because string is a class it has members that we can access using the '.' operator
+
+        //Different string methods
+
         String greeting = "Welcome to programming World!!";
+
         System.out.println(greeting.toLowerCase());
+
         System.out.println(greeting.toUpperCase());
+
         System.out.println(greeting.endsWith("!!")); //true
+
         System.out.println(greeting.endsWith("2")); //false
+
         System.out.println(greeting.startsWith("W")); // true
+
         System.out.println(greeting.startsWith("w")); //false
+
         System.out.println(greeting.length()); //get the no. of characters(including spaces)
+
         System.out.println(greeting.indexOf("e")); //return the first occurrence of the character(if character not present in the string return -1)
+
         System.out.println(greeting.replace("!", "*")); // all the occurrences of ! will be replaced by *. [Note-> This method does  not modify our original string, it returns a new string]
         //Remember -> ** In java strings are immutable, we can't mutate them we can not change them so any
         // method that modify a string will always return a new string object **
