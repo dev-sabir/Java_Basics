@@ -1,5 +1,3 @@
-import java.lang.management.GarbageCollectorMXBean;
-import java.util.Locale;
 
 public class Strings {
 
